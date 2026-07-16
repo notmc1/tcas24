@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>tcas24 TCAS client for ATC24</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="left-panel">
+
+    <div class="title">tcas24 TCAS client for ATC24</div>
+    <p>Made by istmc for the community</p>
+    <select id="pilotSelect" class="pilot-select">
+        <option value="">Select your aircraft (connect first)</option>
+    </select>
+
+    <div class="display-container">
+        <canvas id="tcasCanvas"></canvas>
+    </div>
+
+    <button id="connectBtn">Connect</button>
+
+    <div id="alertBanner"></div>
+
+    <div class="shortcuts">
+        <div><b>I</b> – Toggle aircraft info</div>
+        <div><b>G</b> – Toggle aircraft on ground</div>
+        <div><b>X</b> – Toggle the data panel</div>
+        <div><b>A/D</b> – Rotate map</div>
+        <div><b>Scroll</b> – Zoom</div>
+    </div>
+
+</div>
+
+<div id="debugPanel" class="side-panel">
+    <div class="stream-title">Received data</div>
+    <div id="rawStream" class="stream-box"></div>
+
+    <div class="stream-title">Processed data</div>
+    <div id="procStream" class="stream-box"></div>
+</div>
+
+<script src="tcas.js"></script>
+</body>
+</html>
