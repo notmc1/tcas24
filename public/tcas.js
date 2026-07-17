@@ -46,7 +46,7 @@ connectBtn.onclick = () => {
         return;
     }
    // speakAlert("Connected to 24 Data.");
-    ws = new WebSocket("https://tcas24.onrender.com");
+    ws = new WebSocket("https://tcas24-3w0n.onrender.com");
 
     ws.onopen = () => {
         connectBtn.textContent = "Disconnect";
