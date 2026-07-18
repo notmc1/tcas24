@@ -1,5 +1,5 @@
-# tcas24
-A basic ATC24 TCAS system
+### tcas24
+*A basic ATC24 TCAS system*
 # What is tcas24?
 TCAS24 is a TCAS (traffic alert and collision avoidance system) for ATC24 that uses your distance, altitude and direction from other planes in ATC24 and issues RA (Resolution advisories) in case it is needed.
 # How do I use tcas24? 
