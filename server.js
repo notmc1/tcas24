@@ -1,3 +1,5 @@
+// If you are hosting locally, there is no need to use this. Just change the WebSocket link in the tcas.js to use the official PTFS WebSocket or wss://ws.awdevsoftware.org
+
 const express = require("express");
 const path = require("path");
 const WebSocket = require("ws");
